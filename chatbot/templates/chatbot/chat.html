@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>🌸 PCOS Pinky - Your AI Wellness Friend</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {% load static %}
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{% static 'css/chat.css' %}">
+</head>
+<body>
+    <div class="chatbot">
+        <!-- 🌸 Pink Header with Flowers -->
+        <div class="header">
+            <div class="flower">🌸</div>
+            <h1>Pinky PCOS Helper</h1>
+            <p>Your friendly AI wellness coach 💕 Powered by FAISS + Llama</p>
+            <div class="flower">🌺</div>
+        </div>
+
+        <!-- 💬 Chat Messages Area -->
+        <div class="chat-messages" id="messages">
+            <div class="message bot-message welcome-message">
+                <strong>🌸 Hi lovely!</strong><br><br>
+                I'm your PCOS bestie! I can help with:<br>
+                💕 PCOS symptoms & diagnosis (Rotterdam criteria)<br>
+                🥗 Indian diet plans (no maida!)<br>
+                ⚕️ Treatment options & medications<br>
+                🧘‍♀️ Yoga poses & lifestyle tips<br><br>
+                <em>Type your question below! 💖</em>
+            </div>
+        </div>
+
+        <!-- 📝 Input Area -->
+        <div class="input-area">
+            <input 
+                type="text" 
+                id="question" 
+                class="question-input"
+                placeholder="💭 What PCOS symptoms are you experiencing? Or ask about diet/treatment..."
+                autocomplete="off"
+            >
+            <button id="sendBtn" class="send-button">✨ Ask Pinky</button>
+        </div>
+    </div>
+
+    <!-- Your JS File -->
+    <script src="{% static 'js/chat.js' %}"></script>
+</body>
+</html>
