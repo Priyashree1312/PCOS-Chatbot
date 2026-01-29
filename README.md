@@ -1,32 +1,24 @@
-## 🚨 **Your README Looks Broken - Here's EXACTLY Why + PERFECT FIX**
-
-Your markdown is rendering poorly because of **3 GitHub-specific rendering issues**:
-
-### ❌ **Root Causes:**
-1. **`<div align="center">` conflicts** with GitHub's responsive design
-2. **Inline styles on images** get partially ignored by GitHub
-3. **Mixed HTML + Markdown spacing** creates weird line breaks
-
-### ✅ **PERFECTLY RENDERING VERSION - Copy This EXACTLY:**
 
 ```markdown
 <div align="center">
 
-# 🚀 PCOS Health Advisor Chatbot 🩺✨
+# 🚀 **PCOS Health Advisor Chatbot** 🩺✨
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&pause=1000&color=FF6B9D&center=true&vCenter=true&width=600&lines=AI-Powered+PCOS+Wellness+Assistant;RAG+Pipeline+with+Llama+3.2%2B;Evidence-Based+Medical+Advice;Zero+Hallucinations+-+9%2B+Research+PDFs;Global+HealthTech+Innovation)](https://github.com/Priyashree1312/PCOS-Chatbot)
 
-<br>
+<br><br>
 
 ![Demo](screenshots/demo.png)
 
-*🍽️ Live Demo: Indian PCOS Diet Plans + Yoga Recommendations*
+<br>
+
+**🍽️ Live Demo: Indian PCOS Diet Plans + Yoga Recommendations**
 
 </div>
 
 ---
 
-## 🌟 Medical-Grade RAG Chatbot
+## 🌟 **Medical-Grade RAG Chatbot**
 
 **Enterprise RAG** powered by **Llama 3.2+**, **Django 5.0**, **LangChain**, **FAISS** processing **9+ PCOS Research PDFs**. **Zero hallucinations** - 100% evidence-based.
 
