@@ -3,13 +3,15 @@
 
 # 🚀 **PCOS Health Advisor Chatbot** 🩺✨
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?font=Fira+Code&pause=1000&color=FF6B9D&center=true&vCenter=true&width=600&lines=AI-Powered+PCOS+Wellness+Assistant;RAG+Pipeline+with+Llama+3.2%2B;Evidence-Based+Medical+Advice;Zero+Hallucinations+-+9%2B+Research+PDFs;Global+HealthTech+Innovation)](https://github.com/Priyashree1312/PCOS-Chatbot)
+<br>
+
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&pause=1000&color=FF6B9D&center=true&vCenter=true&width=600&lines=AI-Powered+PCOS+Wellness+Assistant;RAG+Pipeline+with+Llama+3.2%2B;Evidence-Based+Medical+Advice;Zero+Hallucinations+-+9%2B+Research+PDFs;Global+HealthTech+Innovation" alt="Typing SVG">
 
 <br><br>
 
-![Demo](screenshots/demo.png)
+<img src="screenshots/demo.png" width="700" alt="Demo">
 
-<br>
+<br><br>
 
 **🍽️ Live Demo: Indian PCOS Diet Plans + Yoga Recommendations**
 
@@ -21,12 +23,14 @@
 
 **Enterprise RAG** powered by **Llama 3.2+**, **Django 5.0**, **LangChain**, **FAISS** processing **9+ PCOS Research PDFs**. **Zero hallucinations** - 100% evidence-based.
 
-pip install -r requirements.txt && python manage.py runserver
-Python
-Django
-LangChain
-FAISS
-MIT
+<br>
+
+[![Python](https://img.shields.io/badge/Python-3.11-brightgreen.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/Django-5.0-blue.svg?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
+[![LangChain](https://img.shields.io/badge/LangChain-0.3-yellow.svg?style=for-the-badge&logo=langchain&logoColor=white)](https://langchain.com/)
+[![FAISS](https://img.shields.io/badge/FAISS-1.8-orange.svg?style=for-the-badge&logo=vector&logoColor=white)](https://github.com/facebookresearch/faiss)
+[![MIT](https://img.shields.io/badge/License-MIT-purple.svg?style=for-the-badge&logo=mit&logoColor=white)](LICENSE)
+
 ## 🎯 **Solving PCOS Knowledge Crisis**
 
 | Traditional Apps | **Medical RAG Solution** |
@@ -49,6 +53,10 @@ graph TD
     E[👤 User Query] --> F[Top-5 Matches]
     F --> G[Llama 3.2]
     G --> H[⚡ 120ms Response]
+    
+    style A fill:#e1f5fe
+    style H fill:#c8e6c9
+
 
 ```
 
