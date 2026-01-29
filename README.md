@@ -53,8 +53,9 @@ graph TD
     E[👤 User Query] --> F[Top-5 Matches]
     F --> G[Llama 3.2 Medical Prompting]
     G --> H[⚡ Evidence-Based Response]
-    
-  
+
+```
+
 ## 💬 **Real Queries → Medical Answers**
 
 | **User Query** | **Doctor-Quality Response** |
