@@ -1,22 +1,8 @@
 ```markdown
-<div align="center">
-
-# 🚀 **PCOS Health Advisor Chatbot** 🩺✨
-
-<br>
-
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&pause=1000&color=FF6B9D&center=true&vCenter=true&width=600&lines=AI-Powered+PCOS+Wellness+Assistant;RAG+Pipeline+with+Llama+3.2%2B;Evidence-Based+Medical+Advice;Zero+Hallucinations+-+9%2B+Research+PDFs;Global+HealthTech+Innovation" alt="Typing SVG">
-
-<br><br>
-
-<img src="screenshots/demo.png" width="700" alt="Demo">
-
-<br><br>
-
-**🍽️ Live Demo: Indian PCOS Diet Plans + Yoga Recommendations**
-
+🚀 PCOS Health Advisor Chatbot 🩺✨
+<div align="center"> <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&pause=1000&color=FF6B9D&center=true&vCenter=true&width=600&lines=AI-Powered+PCOS+Wellness+Assistant;Medical+RAG+Pipeline+with+Llama+3;Evidence-Based+Health+Guidance;Zero+Hallucinations;Global+HealthTech+Innovation" /> <br> <img src="screenshots/demo.png" width="700"/> <br>
+🍽️ Live Demo: Indian PCOS Diet Plans + Yoga Recommendations
 </div>
-
 ---
 
 ## 🌟 **Medical-Grade RAG Chatbot**
@@ -51,12 +37,12 @@ graph TD
     B --> C[Sentence Transformers]
     C --> D[FAISS + ChromaDB]
     E[👤 User Query] --> F[Top-5 Matches]
-    F --> G[Llama 3.2]
-    G --> H[⚡ 120ms Response]
+    F --> G[Llama 3.2  Medical Prompting]
+    G --> H[⚡ Evidence-Based Response]
     
     style A fill:#e1f5fe
+    style D fill:#fff3e0
     style H fill:#c8e6c9
-
 
 ```
 
