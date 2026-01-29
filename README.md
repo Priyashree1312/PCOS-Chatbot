@@ -3,7 +3,7 @@
 </p>
 
 <p align="center">
-<img src="screenshots/demo.png" width="700">
+<img src="chatbot/screenshots/demo1.png" width="700">
 </p>
 
 <p align="center">
