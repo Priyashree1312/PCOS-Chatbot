@@ -3,15 +3,9 @@
 
 # 🚀 **PCOS Health Advisor Chatbot** 🩺✨
 
-<br><br>
-
 <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&pause=1000&color=FF6B9D&center=true&vCenter=true&width=600&lines=AI-Powered+PCOS+Wellness+Assistant;Medical+RAG+Pipeline+with+Llama+3;Evidence-Based+Health+Guidance;Zero+Hallucinations;Global+HealthTech+Innovation" alt="Typing SVG">
 
-<br><br>
-
 <img src="screenshots/demo.png" width="700" alt="Demo Screenshot">
-
-<br><br>
 
 **🍽️ Live Demo: Indian PCOS Diet Plans + Yoga Recommendations**
 
@@ -22,8 +16,6 @@
 ## 🌟 **Medical-Grade RAG Chatbot**
 
 **Enterprise RAG** powered by **Llama 3.2+**, **Django 5.0**, **LangChain**, **FAISS** processing **9+ PCOS Research PDFs**. **Zero hallucinations** - 100% evidence-based.
-
-<br>
 
 [![Python](https://img.shields.io/badge/Python-3.11-brightgreen.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
 [![Django](https://img.shields.io/badge/Django-5.0-blue.svg?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
@@ -53,6 +45,11 @@ graph TD
     E[👤 User Query] --> F[Top-5 Matches]
     F --> G[Llama 3.2 Medical Prompting]
     G --> H[⚡ Evidence-Based Response]
+    
+    style A fill:#e1f5fe
+    style D fill:#fff3e0
+    style H fill:#c8e6c9
+
 
 ```
 
