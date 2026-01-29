@@ -1,17 +1,16 @@
-```markdown
-<div align="center">
+<p align="center">
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&pause=1000&color=FF6B9D&center=true&vCenter=true&width=600&lines=AI-Powered+PCOS+Wellness+Assistant;Medical+RAG+Pipeline+with+Llama+3;Evidence-Based+Health+Guidance;Zero+Hallucinations;Global+HealthTech+Innovation" alt="Typing SVG">
+</p>
+
+<p align="center">
+<img src="screenshots/demo.png" width="700">
+</p>
+
+<p align="center">
+**🍽️ Live Demo: Indian PCOS Diet Plans + Yoga Recommendations**
+</p>
 
 # 🚀 **PCOS Health Advisor Chatbot** 🩺✨
-
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&pause=1000&color=FF6B9D&center=true&vCenter=true&width=600&lines=AI-Powered+PCOS+Wellness+Assistant;Medical+RAG+Pipeline+with+Llama+3;Evidence-Based+Health+Guidance;Zero+Hallucinations;Global+HealthTech+Innovation" alt="Typing SVG">
-
-<img src="screenshots/demo.png" width="700" alt="Demo Screenshot">
-
-**🍽️ Live Demo: Indian PCOS Diet Plans + Yoga Recommendations**
-
-</div>
-
----
 
 ## 🌟 **Medical-Grade RAG Chatbot**
 
@@ -49,6 +48,7 @@ graph TD
     style A fill:#e1f5fe
     style D fill:#fff3e0
     style H fill:#c8e6c9
+
 
 
 ```
