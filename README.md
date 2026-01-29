@@ -54,11 +54,7 @@ graph TD
     F --> G[Llama 3.2 Medical Prompting]
     G --> H[⚡ Evidence-Based Response]
     
-    style A fill:#e1f5fe
-    style D fill:#fff3e0
-    style H fill:#c8e6c9
-```
-
+  
 ## 💬 **Real Queries → Medical Answers**
 
 | **User Query** | **Doctor-Quality Response** |
