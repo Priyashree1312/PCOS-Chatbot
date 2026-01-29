@@ -1,8 +1,22 @@
 ```markdown
-🚀 PCOS Health Advisor Chatbot 🩺✨
-<div align="center"> <img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&pause=1000&color=FF6B9D&center=true&vCenter=true&width=600&lines=AI-Powered+PCOS+Wellness+Assistant;Medical+RAG+Pipeline+with+Llama+3;Evidence-Based+Health+Guidance;Zero+Hallucinations;Global+HealthTech+Innovation" /> <br> <img src="screenshots/demo.png" width="700"/> <br>
-🍽️ Live Demo: Indian PCOS Diet Plans + Yoga Recommendations
+<div align="center">
+
+# 🚀 **PCOS Health Advisor Chatbot** 🩺✨
+
+<br><br>
+
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&pause=1000&color=FF6B9D&center=true&vCenter=true&width=600&lines=AI-Powered+PCOS+Wellness+Assistant;Medical+RAG+Pipeline+with+Llama+3;Evidence-Based+Health+Guidance;Zero+Hallucinations;Global+HealthTech+Innovation" alt="Typing SVG">
+
+<br><br>
+
+<img src="screenshots/demo.png" width="700" alt="Demo Screenshot">
+
+<br><br>
+
+**🍽️ Live Demo: Indian PCOS Diet Plans + Yoga Recommendations**
+
 </div>
+
 ---
 
 ## 🌟 **Medical-Grade RAG Chatbot**
@@ -37,13 +51,12 @@ graph TD
     B --> C[Sentence Transformers]
     C --> D[FAISS + ChromaDB]
     E[👤 User Query] --> F[Top-5 Matches]
-    F --> G[Llama 3.2  Medical Prompting]
+    F --> G[Llama 3.2 Medical Prompting]
     G --> H[⚡ Evidence-Based Response]
     
     style A fill:#e1f5fe
     style D fill:#fff3e0
     style H fill:#c8e6c9
-
 ```
 
 ## 💬 **Real Queries → Medical Answers**
@@ -51,7 +64,7 @@ graph TD
 | **User Query** | **Doctor-Quality Response** |
 |----------------|-----------------------------|
 | `PCOS symptoms?` | `📋 7 symptoms: Irregular menses, hirsutism...` |
-| `Indian PCOS diet?` | `🥗 Ragi porridge + methi water, Jowar roti` |
+| `Indian PCOS diet?` | `🥗 Ragi porridge + methi water` |
 | `Yoga for PCOS?` | `🧘‍♀️ Butterfly Pose, 15min 3x/week` |
 | `Metformin?` | `💊 500mg BD, Rotterdam criteria` |
 | `Weight loss?` | `⚖️ Low-GI + HIIT, 5-7% target` |
@@ -63,7 +76,8 @@ git clone https://github.com/Priyashree1312/PCOS-Chatbot.git
 cd PCOS-Chatbot
 pip install -r requirements.txt
 ollama pull llama3.2:latest
-python manage.py migrate && python manage.py runserver
+python manage.py migrate
+python manage.py runserver
 ```
 
 🌐 **Live**: `http://localhost:8000`
@@ -73,15 +87,15 @@ python manage.py migrate && python manage.py runserver
 ```
 PCOS-Chatbot/
 ├── chat_bot/
-│   ├── rag_pipeline.py  # FAISS + Llama RAG
-│   ├── views.py         # REST API
+│   ├── rag_pipeline.py  # RAG core
+│   ├── views.py         # API endpoints
 │   └── rag_utils.py     # Embeddings
 ├── data/                # 9+ Medical PDFs
 ├── chroma_db/           # Vector storage
 └── docker-compose.yml
 ```
 
-## 📦 **Key Dependencies**
+## 📦 **Dependencies**
 
 ```txt
 Django==5.0.7
@@ -92,7 +106,7 @@ sentence-transformers==3.1.1
 pypdf==5.1.0
 ```
 
-## ⚙️ **.env Config**
+## ⚙️ **.env Setup**
 
 ```env
 OLLAMA_BASE_URL=http://localhost:11434
@@ -100,18 +114,7 @@ TOP_K_RESULTS=5
 DEBUG=False
 ```
 
-## 🌍 **Global + Indian Excellence**
-
-```
-🌍 INTERNATIONAL medical terms
-🇮🇳 INDIAN ragi, jowar recipes
-⚕️ MEDICAL Rotterdam criteria
-📱 MOBILE 95+ Lighthouse
-⚡ SPEED 120ms avg
-📊 SCALE 100+ users
-```
-
-## 📈 **Performance Metrics**
+## 📈 **Performance**
 
 ```
 ✅ Indexing: 2.3M tokens/min
@@ -126,7 +129,7 @@ DEBUG=False
 ```
 ✅ v1.0 Core RAG (LIVE)
 ✅ v1.1 Multi-language
-⏳ v2.0 Voice + wearables
+⏳ v2.0 Voice input
 ⏳ v3.0 Doctor dashboard
 ```
 
@@ -134,11 +137,13 @@ DEBUG=False
 
 <div align="center">
 
-<img src="screenshots/priyashree.png" width="120" style="border-radius:50%">
+<img src="screenshots/priyashree.png" width="120" style="border-radius: 50%">
 
 **Priyashree Panda**  
 *Data Scientist | AI Engineer | HealthTech*  
 🗺️ **Bhubaneswar, Odisha, India**
+
+<br><br>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/priyashree-panda-063ab91bb/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow⭐-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Priyashree1312)
