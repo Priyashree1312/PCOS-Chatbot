@@ -1,30 +1,26 @@
 ```markdown
 <div align="center">
-
 # 🚀 **PCOS Health Advisor Chatbot** 🩺✨
 
-<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&pause=1000&color=FF6B9D&center=true&vCenter=true&width=600&lines=AI-Powered+PCOS+Wellness+Assistant;RAG+Pipeline+with+Llama+3.2%2B;Evidence-Based+Medical+Advice;Zero+Hallucinations+-+9%2B+Research+PDFs;Global+HealthTech+Innovation" alt="Typing SVG" />
+<img src="https://readme-typing-svg.herokuapp.com/?font=Fira+Code&pause=1000&color=FF6B9D&center=true&vCenter=true&width=600&lines=AI-Powered+PCOS+Wellness+Assistant;RAG+Pipeline+with+Llama+3.2%2B;Evidence-Based+Medical+Advice;Zero+Hallucinations+-+9%2B+Research+PDFs;Global+HealthTech+Innovation" alt="Typing SVG">
 
-<br><br>
+<img src="screenshots/demo.png" width="700" style="border-radius: 20px; box-shadow: 0 20px 40px rgba(255,107,157,0.4);">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Priyashree1312/PCOS-Chatbot/blob/main/screenshots/banner-dark.png">
-  <img alt="PCOS Chatbot Hero Banner" src="screenshots/demo.png" style="border-radius: 15px; box-shadow: 0 20px 40px rgba(255,107,157,0.3); max-width: 700px;">
-</picture>
-
+*🍽️ Live Demo: Indian PCOS Diet Plans + Yoga Recommendations*
 </div>
 
 ---
 
-## 🌟 **Medical-Grade RAG Chatbot for Global PCOS Care**
+## 🌟 **Medical-Grade RAG Chatbot**
 
-**Enterprise-grade Retrieval-Augmented Generation (RAG)** powered by **Llama 3.2+**, **Django 5.0**, **LangChain 0.3**, **FAISS VectorDB** processing **9+ PCOS Research PDFs**. Delivers **instant, evidence-based, international-standard** answers with **Indian dietary excellence**. **Zero hallucinations** - every response grounded in medical research.
+**Enterprise RAG** powered by **Llama 3.2+**, **Django 5.0**, **LangChain**, **FAISS** processing **9+ PCOS Research PDFs**. **Zero hallucinations** - 100% evidence-based.
 
-[![Python 3.11](https://img.shields.io/badge/Python-3.11-brightgreen.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
-[![Django 5.0](https://img.shields.io/badge/Django-5.0-blue.svg?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
-[![LangChain 0.3](https://img.shields.io/badge/LangChain-0.3-yellow.svg?style=for-the-badge&logo=langchain&logoColor=white)](https://langchain.com/)
-[![FAISS VectorDB](https://img.shields.io/badge/FAISS-1.8-orange.svg?style=for-the-badge&logo=vector&logoColor=white)](https://github.com/facebookresearch/faiss)
-[![MIT License](https://img.shields.io/badge/License-MIT-purple.svg?style=for-the-badge&logo=mit&logoColor=white)](LICENSE)
+[![Python](https://img.shields.io/badge/Python-3.11-brightgreen.svg?style=for-the-badge&logo=python&logoColor=white)](https://www.python.org/)
+[![Django](https://img.shields.io/badge/Django-5.0-blue.svg?style=for-the-badge&logo=django&logoColor=white)](https://www.djangoproject.com/)
+[![LangChain](https://img.shields.io/badge/LangChain-0.3-yellow.svg?style=for-the-badge&logo=langchain&logoColor=white)](https://langchain.com/)
+[![FAISS](https://img.shields.io/badge/FAISS-1.8-orange.svg?style=for-the-badge&logo=vector&logoColor=white)](https://github.com/facebookresearch/faiss)
+[![MIT](https://img.shields.io/badge/License-MIT-purple.svg?style=for-the-badge&logo=mit&logoColor=white)](LICENSE)
+
 
 ## 🎯 **Solving the Global PCOS Knowledge Crisis**
 
@@ -52,21 +48,6 @@ graph TD
     style A fill:#e1f5fe
     style H fill:#c8e6c9
 ```
-
-## 📱 **Live Demo - Real Medical Interface**
-
-<table align="center">
-<tr>
-<td align="center">
-<img src="screenshots/demo1.png" width="450" alt="PCOS Diet Query"/>
-<p><b>🍽️ Indian Diet Recommendations</b></p>
-</td>
-<td align="center">
-<img src="screenshots/demo2.png" width="450" alt="Yoga Protocol"/>
-<p><b>🧘‍♀️ Evidence-Based Yoga</b></p>
-</td>
-</tr>
-</table>
 
 ## 💬 **Real Queries → Medical-Grade Answers**
 
@@ -267,7 +248,6 @@ faiss_index/
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect%20💬-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/priyashree-panda-063ab91bb/)
 [![GitHub](https://img.shields.io/badge/GitHub-Follow%20⭐-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Priyashree1312)
 
-
 </div>
 
 <div align="center">
@@ -281,8 +261,11 @@ faiss_index/
 **#HealthTech #RAG #Django #PCOS #AIforGood #BhubaneswarTech**
 </div>
 
-
-
-**✅ My repo is attracts: Doctors • HealthTech VCs • Global developers • PCOS patients worldwide!** 🎖️
+**✅ Attracts: Doctors • HealthTech VCs • Global developers • PCOS patients worldwide!** 🎖️
 
 **Live Preview**: `github.com/Priyashree1312/PCOS-Chatbot` 🚀
+```
+
+
+
+
